@@ -2,8 +2,8 @@ import 'dart:math';
 
 import 'package:flutter/material.dart';
 
-import './quote.dart';
-import './authorName.dart';
+import 'quote.dart';
+import 'authorName.dart';
 
 class QuoteWithAuthor extends StatelessWidget {
   final String quote;

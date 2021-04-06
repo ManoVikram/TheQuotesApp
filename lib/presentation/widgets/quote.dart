@@ -21,8 +21,8 @@ class Quote extends StatelessWidget {
       textAlign: TextAlign.center,
       softWrap: true,
       minFontSize: 14.0,
-      maxFontSize: 24.0,
-      maxLines: (size.height / 14).toInt(),
+      maxFontSize: 32.0,
+      maxLines: 7,
       style: TextStyle(
         fontFamily: GoogleFonts.exo().fontFamily,
         color: Colors.white,

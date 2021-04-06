@@ -14,7 +14,7 @@ class AuthorName extends StatelessWidget {
     return Align(
       alignment: Alignment.bottomCenter,
       child: Text(
-        "~ $authorName",
+        authorName == null ? "" : "~ $authorName",
         style: TextStyle(
           fontFamily: GoogleFonts.oxygen().fontFamily,
           color: Colors.white,
