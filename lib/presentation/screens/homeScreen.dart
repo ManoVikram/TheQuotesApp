@@ -28,7 +28,7 @@ class _HomeScreenState extends State<HomeScreen> {
       Colors.blueGrey,
       Colors.indigo,
       Colors.green,
-      Colors.amber,
+      Colors.amber[400],
       Colors.pinkAccent,
       Colors.purple,
     ];

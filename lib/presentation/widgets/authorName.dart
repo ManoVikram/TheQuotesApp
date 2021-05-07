@@ -19,7 +19,7 @@ class AuthorName extends StatelessWidget {
           fontFamily: GoogleFonts.oxygen().fontFamily,
           color: Colors.white,
           fontWeight: FontWeight.bold,
-          fontSize: 18.0,
+          fontSize: 20.0,
         ),
       ),
     );

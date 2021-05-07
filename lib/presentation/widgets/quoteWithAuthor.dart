@@ -26,7 +26,17 @@ class QuoteWithAuthor extends StatelessWidget {
       duration: Duration(
         milliseconds: 500,
       ),
-      color: colors[Random().nextInt(colors.length)],
+      decoration: BoxDecoration(
+        /* gradient: LinearGradient(
+          begin: Alignment.topLeft,
+          end: Alignment.bottomRight,
+          colors: [
+            colors[Random().nextInt(colors.length)],
+            Colors.,
+          ],
+        ), */
+        color: colors[Random().nextInt(colors.length)],
+      ),
       padding: EdgeInsets.all(8.0),
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
